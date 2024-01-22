@@ -1,10 +1,8 @@
-# CIM_Laurent
-This is the repository for the algorithms implementation of the paper: "A Fixed-Point Current Injection Power Flow forElectric Distribution Systems using Laurent Series", Electric Power Systems Research, 2022.
+# A Fixed-Point Current Injection Power Flow for Electric Distribution Systems using Laurent Series
+This is the repository for the algorithm's implementation of the paper: "A Fixed-Point Current Injection Power Flow forElectric Distribution Systems using Laurent Series," Electric Power Systems Research, 2022. doi: https://doi.org/10.1016/j.epsr.2022.108326.
 
-Code by Juan S. Giraldo - jnse@ieee.org
-
-02/2022 - EEMCS, University of Twente, NL
-
-# 
-
+# Abstract
+This paper proposes a new power flow (PF) formulation for electrical distribution systems using the current injection method and applying the Laurent series expansion. Two solution algorithms are proposed: a Newton-like iterative procedure and a fixed-point iteration based on the successive approximation method (SAM). The convergence analysis of the SAM is proven via the Banach fixed-point theorem, ensuring numerical stability, the uniqueness of the solution, and independence on the initializing point. Numerical results are obtained for both proposed algorithms and compared to well-known PF formulations considering their rate of convergence, computational time, and numerical stability. Tests are performed for different branch R/X ratios, loading conditions, and initialization points in balanced and unbalanced networks with radial and weakly-meshed topologies. Results show that the SAM is computationally more efficient than the compared PFs, being more than ten times faster than the backward–forward sweep algorithm.
+ 
+# Recommended Citation
 Juan S. Giraldo, Oscar D. Montoya, Pedro P. Vergara, and Federico Milano, "A Fixed-Point Current Injection Power Flow forElectric Distribution Systems using Laurent Series", Electric Power Systems Research, 2022. doi: https://doi.org/10.1016/j.epsr.2022.108326.
